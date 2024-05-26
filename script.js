@@ -1,4 +1,4 @@
-import { is_premium, username, photo_url } from "telegram.js";
+import { is_premium, username, photo_url } from "./telegram.js";
 
 document.addEventListener("DOMContentLoaded", (event) => {
   console.log(is_premium);
